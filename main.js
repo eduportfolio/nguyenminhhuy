@@ -124,7 +124,7 @@ const modalData = {
         img: "assets/opho-certificate.jpg"
     },
     'physics-9': {
-        title: "First Prize - Excellent Student in Physics",
+        title: "First Prize - City-Level Selection Examination for Excellent Grade 9 Students in Physics",
         color: "blue",
         date: "2023 - 2024",
         subtitle: "Ho Chi Minh City Department of Education and Training | Grade 9 City Level",
@@ -204,9 +204,9 @@ const modalData = {
         
         <h4 style="margin-top:15px; color:var(--green-400);">Key Responsibilities:</h4>
         <ul style="margin-left: 20px; color: var(--text-secondary);">
-            <li><strong>Team Leadership:</strong> Managed and directed a cross-functional team of 50 members to execute digital media campaigns.</li>
-            <li><strong>Fundraising:</strong> Secured <strong>10,000,000+ VND</strong> in crowd-sourced donations through targeted online fundraising strategies.</li>
-            <li><strong>Operations Management:</strong> Overseen logistics and supply chain distribution of medical/essential relief packages, directly impacting <strong>100+ underprivileged children</strong>.</li>
+            <li><strong>Team Leadership:</strong> Managed and directed a cross-functional team of 60 members to execute digital media campaigns.</li>
+            <li><strong>Fundraising:</strong> Secured over <strong>20,000,000+ VND</strong> in crowd-sourced donations through targeted online fundraising strategies.</li>
+            <li><strong>Operations Management:</strong> Overseen logistics and supply chain distribution of medical/essential relief packages, directly impacting <strong>200+ underprivileged children</strong>.</li>
         </ul>
     `,
         tags: ["Project Management", "Fundraising", "Digital Campaigns", "Community Health"],
