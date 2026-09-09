@@ -1413,6 +1413,10 @@ section {
   border-top: 3px solid var(--purple);
 }
 
+.skill-card.yellow {
+  border-color: var(--yellow-400); /* Hoặc màu viền bạn muốn */
+}
+
 .skill-card-title {
   font-family: var(--font-sans);
   font-size: 1.1rem;
@@ -1432,6 +1436,10 @@ section {
 
 .skill-card-title.purple {
   color: var(--purple);
+}
+
+.skill-card-title.yellow {
+  color: var(--yellow-400);
 }
 
 .skill-tags {
@@ -1465,6 +1473,12 @@ section {
   background: var(--purple-muted);
   border-color: rgba(191, 95, 255, 0.15);
   color: var(--purple);
+}
+
+.skill-tag.yellow {
+  background-color: rgba(250, 204, 21, 0.1); /* Màu nền nhạt */
+  color: var(--yellow-400);
+  border: 1px solid rgba(250, 204, 21, 0.2);
 }
 
 /* ══════════════════════
