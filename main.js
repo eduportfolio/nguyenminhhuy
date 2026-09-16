@@ -156,6 +156,24 @@ const modalData = {
         tags: ["Top Tier GPA", "Academic Distinction", "Student Leadership"],
         img: "assets/hstb.jpg"
     },
+
+    'hsarc-2026': {
+        title: "HSARC Certificate of Participation",
+        color: "blue",
+        date: "2026",
+        subtitle: "Crimson Education & Indigo Research",
+        desc: `
+        <p>Honored for outstanding intellectual curiosity and research excellence in the <strong>2026 High School Academic Research Competition (HSARC)</strong>, a prestigious global platform hosted by Crimson Education and Indigo Research.</p>
+        <h4 style="margin-top:15px; color:var(--blue-400);">Key Highlights:</h4>
+        <ul style="margin-left: 20px; color: var(--text-secondary);">
+            <li><strong>Research Excellence:</strong> Conducted high-level academic research demonstrating rigorous critical thinking, analytical depth, and methodical inquiry.</li>
+            <li><strong>Global Recognition:</strong> Recognized by international academic mentors and organizations (Crimson Education & Indigo Research) for passion in scholarly pursuits.</li>
+        </ul>
+    `,
+        tags: ["Academic Research", "Global Competition", "Crimson Education", "Research Excellence"],
+        img: "assets/SARC26_ Participation Certificate For Huy Nguyen_page-0001.jpg"
+    },
+
     'locker': {
         title: "IoT-Based Smart Locker System",
         color: "yellow",
@@ -277,7 +295,7 @@ const modalData = {
         </ul>
     `,
         tags: ["Public Speaking", "Event Logistics", "Field Operations", "Supply Chain Control"],
-        img: "assets/lucky_village.jpg"
+        img: "assets/lucky_village.png"
     },
     'kindness-bookshelf': {
         title: "Volunteer Member - Kindness Bookshelf Initiative",
@@ -359,7 +377,7 @@ const modalData = {
         </ul>
     `,
         tags: ["Academic Writing", "Strategic Roadmapping", "Mentorship Media", "Peer Review"],
-        img: "assets/tram_chuyen_cap.jpg"
+        img: "assets/tramchuyencap.png"
     },
 
     'project-alpha': {
@@ -374,9 +392,14 @@ const modalData = {
             <li><strong>Capital Acquisition:</strong> Designed engaging media copy and promotional outreach assets, helping secure <strong>7,000,000 VND</strong> in targeted community donations.</li>
             <li><strong>Volunteer Coordination:</strong> Co-directed field workflows for 20 active volunteers during resource mobilization and critical package drops for youth centers.</li>
         </ul>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-bottom: 20px;">
+            <img src="assets/project_alpha/project_alpha (1).jpg" alt="ADHD Awareness Workshop" style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(168, 85, 247, 0.2); cursor: pointer;" onclick="openImageModal(this)">
+            <img src="assets/project_alpha/project_alpha (2).jpeg" alt="Family Engagement Session" style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(168, 85, 247, 0.2); cursor: pointer;" onclick="openImageModal(this)">
+            <img src="assets/project_alpha/project_alpha (2).jpg" alt="HCMC Chapter Team Meeting" style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(168, 85, 247, 0.2); cursor: pointer;" onclick="openImageModal(this)">
+        </div>
     `,
         tags: ["Outreach Media", "Capital Fundraising", "Volunteer Synergies", "Field Distribution"],
-        img: "assets/project_alpha.jpg"
+        img: "assets/project_alpha/project_alpha (1).jpeg"
     },
 
     'buom-project': {
@@ -411,6 +434,23 @@ const modalData = {
     `,
         tags: ["Brand Architecture", "Outreach Optimization", "Media Strategy", "Audience Growth"],
         img: "assets/euphro_1.png"
+    },
+
+    'scdi-volunteer': {
+        title: "Community Volunteer - SCDI",
+        color: "cyan",
+        date: "03/03/2025 - 30/06/2026",
+        subtitle: "Centre for Supporting Community Development Initiatives",
+        desc: `
+        <p>Successfully completed the activity-based volunteer period at SCDI, contributing to various community development projects and social welfare initiatives.</p>
+        <h4 style="margin-top:15px; color:var(--cyan-400);">Key Contributions:</h4>
+        <ul style="margin-left: 20px; color: var(--text-secondary);">
+            <li><strong>Community Support:</strong> Actively facilitated local outreach activities aimed at enhancing social wellbeing and community development.</li>
+            <li><strong>Project Execution:</strong> Collaborated with multidisciplinary teams to execute field initiatives under the supervision of SCDI's executive framework.</li>
+        </ul>
+    `,
+        tags: ["Community Development", "Volunteer Work", "SCDI", "Social Impact"],
+        img: "assets/SCDI_1.jpg"
     }
 };
 
