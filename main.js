@@ -450,7 +450,7 @@ const modalData = {
         </ul>
     `,
         tags: ["Community Development", "Volunteer Work", "SCDI", "Social Impact"],
-        img: "assets/SCDI_1.jpg"
+        img: "assets/SCDI_1.JPG"
     }
 };
 
